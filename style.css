@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  max-width: 400px !important;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.volume-container i {
+  margin-right: 8px;
+}
+li.playing {
+  background-color: rgb(68, 68, 195);
+  color: white;
+}
+li {
+  cursor: pointer;
+}
